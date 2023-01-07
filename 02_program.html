@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="form">
+        <form action="">
+        <h1>Give us your valuable feedback!</h1>
+        <p>Required Fields *</p>
+        <p>Name*: <input type="text" required></p>
+        <fieldset>
+            <legend>Gender*</legend>
+        <p>Male <input type= "radio" name="gender"  id="male" required>Female <input type= "radio" name="gender" id="female" ></p></fieldset>
+        <p>Mobile No.* <input type="number" name="number" id="number" required></p>
+        <p>Email:<input type= "email" id="email"></p>
+        <fieldset>
+            <legend>Stars</legend>
+            <p>1.(Poor)<input type="radio" name="star" id="poor" required>2.(Average)<input type="radio" name="star" id="average" required>3.(Satisfactory)<input type="radio" name="star" id="satisfactory" required>4.(Good) <input type="radio" name="star" id="good" required>5.(Excellent) <input type="radio" name="" id="star" required></p>
+        </fieldset>
+        <fieldset>
+            <legend>Discription</legend>
+            <p><textarea name="disc." id="disc." cols="50" rows="5"></textarea></p>
+        </fieldset></div>
+        <input type="submit" value="Submit your Feedback" style="background-color: rgb(14, 48, 239); color: white;">
+        </form>
+</body>
+</html>

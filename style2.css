@@ -1,0 +1,10 @@
+h1{
+    background-color: bisque;
+}
+.form{
+    background-color: rgb(197, 247, 230);
+    background-image: url('Faridabad.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 13cm;
+}

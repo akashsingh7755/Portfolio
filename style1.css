@@ -1,0 +1,18 @@
+h1{
+    color: rgb(22, 8, 145) ;text-align: center; background-color: rgb(133, 243, 129); border: 4px solid greenyellow;
+}
+.pics{
+background-color: rgb(210, 214, 244); border-style: double ; border: 6px solid rgb(58, 31, 192);
+}
+h2{
+    color: rgb(247, 82, 82);background-color: rgb(182, 246, 227);text-align: center;
+}
+.info{
+    background-color: rgb(249, 229, 229);
+}
+#table{
+    background-color: rgb(240, 241, 183);
+}
+h3{
+    background-color: rgb(221, 213, 250);
+}
